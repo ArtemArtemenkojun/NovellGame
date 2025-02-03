@@ -1,0 +1,45 @@
+; English <en> to Russian <ru> localization document for `Map2` naninovel script
+
+# 87c55bb3
+; 	{PlayerName}: Hello Sonya. I came about the quest.
+    {PlayerName}: Привет, Соня. Я пришел по поводу квеста.
+
+# 4722b44a
+; 	Sonya: Hello, {PlayerName}. Before we continue, let's play a mini-game.
+    Соня: Привет, {PlayerName}. Прежде чем продолжить, давайте сыграем в мини-игру.
+
+# bd80d3a
+; 	{PlayerName}: I completed the mini-game. What should I do next?
+	{PlayerName}: Я прошел мини-игру. Что я должен делать дальше?
+
+# fe60c3b2
+; 	Sonya: Everything went well! The next step is Location - 3. There you will find something that you need to use.
+    Соня: Все прошло хорошо! Следующий шаг - Локация - 3. Там ты найдешь то, что вам нужно использовать.
+
+# af1ef10
+; 	{PlayerName}: After I found this in Location - 3, I wondered why it was so important. Why all these quests and solving riddles?
+    {PlayerName}: После того, как я нашел это в Локации - 3, я задался вопросом, почему это так важно. Зачем все эти квесты и разгадывание загадок?
+
+# 7fecbffe
+; 	{PlayerName}: It seems like everyone wants to get their hands on it.
+    {PlayerName}: Кажется, все хотят заполучить это.
+
+# fb01ed51
+; 	{PlayerName}: Perhaps Sonya or Emma know more than they say.
+    {PlayerName}: Возможно, Соня или Эмма знают больше, чем говорят.
+
+# 38b63ba2
+; 	{PlayerName}: I need to be more careful with my actions and decisions in this adventure.
+	{PlayerName}: Мне нужно быть более осторожным в своих действиях и решениях в этом приключении.
+
+# 2949c16
+; 		Sonya: Hello, glad you're back
+        Соня: Привет, рада, что ты вернулся
+
+# ddc683fc
+; 		Sonya: Oh, is this what you wanted?
+        Соня: О, это то, что ты хотел?
+
+# d816847f
+; 		Sonya: If there’s nothing interesting then get lost
+        Соня: Если ничего интересного, то проваливай.

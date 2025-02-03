@@ -1,0 +1,5 @@
+@back Bg4
+@stopBGM fade:1
+@bgm Reward volume:0.5 
+@showUI RewardView pos:90,40
+@stop

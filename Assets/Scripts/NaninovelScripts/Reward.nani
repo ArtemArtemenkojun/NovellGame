@@ -1,0 +1,13 @@
+@hideUI RewardView
+@sfx openReward
+@char Person.Me pose:right 
+{PlayerName}: I used the item in Location - 3. What next?
+@showUI QuestView
+@completeQuest
+@wait 2
+@DecreaseMapLevel
+@char Person.Sonya pose:right 
+Sonya: The quest has been updated. Now go back to Location - 2.
+@getQuest name:Dark
+@set quest="Dark"
+@goto Locations

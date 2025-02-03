@@ -1,0 +1,15 @@
+@set reward="NPC1"
+@char Sonya.Sonya visible:false
+@if reward=="NPC1"
+	@showUI QuestView
+	@completeQuest
+	@wait 2
+	@char Person.Emma pose:right
+	Emma: Thank you, {PlayerName}. You helped me a lot.
+	@char Person.Sonya pose:right
+	Sonya: How could you trust such a person... oh well, good luck.
+@else
+	@char Person.Emma pose:right
+	Emma: Oh, {PlayerName}, I'm terribly disappointed. You've decided to give the reward to Sonya? I'm sure she's hiding something important from us. This choice could lead to unpleasant consequences. I hope you understand your decision.
+@endif
+	@goto Locations

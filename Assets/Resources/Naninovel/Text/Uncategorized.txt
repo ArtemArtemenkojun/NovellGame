@@ -1,0 +1,14 @@
+Location: Location
+Map: MAP
+Map1: Chernobyl
+Map2: Pripyat
+Map3: PripyatForest
+NewGameLabel: NEW GAME
+Placeholder: Enter text...
+SummaryText: Enter your name
+TitleMenu.CGGallery: CG GALLERY
+TitleMenu.Continue: CONTINUE
+TitleMenu.Exit: EXIT
+TitleMenu.ExternalScripts: EXTERNAL SCRIPTS
+TitleMenu.Settings: SETTINGS
+TitleMenu.Tips: TIPS

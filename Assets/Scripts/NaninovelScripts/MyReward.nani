@@ -1,0 +1,13 @@
+@set reward="Me"
+@char Sonya.Sonya visible:false
+@char Person.Emma visible:false
+@if reward=="Me"
+	@showUI QuestView
+	@completeQuest
+	@wait 2
+	@char Person.Emma pose:right
+	Emma: You're greedy! Figure it out yourself.
+	@char Persom.Sonya pose:right
+	Sonya: What a selfish person, {PlayerName}.
+@endif
+	@goto Locations

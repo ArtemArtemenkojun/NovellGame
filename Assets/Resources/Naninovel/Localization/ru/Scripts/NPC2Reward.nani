@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `NPC2Reward` naninovel script
+
+# 45eee476
+; 	Sonya: Oh, thank you, {PlayerName}! You've entrusted me with this reward. I promise to use it wisely. It will come in very handy.
+    Соня: О, спасибо, {PlayerName}! Ты доверил мне эту награду. Обещаю использовать ее с умом. Она мне очень пригодится.
+
+# db596c36
+; 	Sonya: What nonsense! I don't have my award? Are you kidding me?
+    Соня: Что за чушь! У меня нет награды? Ты издеваешься?

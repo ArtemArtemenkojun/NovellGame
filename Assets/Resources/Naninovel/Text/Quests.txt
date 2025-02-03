@@ -1,0 +1,8 @@
+BodyQuest1: We have very little fuel. Emma is looking for help to restore it. She thinks Sonya might know something about it.
+BodyQuest2: Several people have not returned to the shelter for a long time, Sonya thinks that it is necessary to go in search of them, for this, fuel is needed.
+BodyQuest3: Odd occurrences around the cursed lake concern Eliza. A strange light hovers near the camp, Emma is worried, she suggests that the player explore the area to understand the nature of the mysterious glow, and Sonya can help gather information.
+BodyQuest4: Strange signs and sounds caught Sonia and Emma's attention. They fear that something is wrong somewhere near the camp. The player needs to go scouting.
+HeaderQuest1: Search for fuel
+HeaderQuest2: Searching for missing people
+HeaderQuest3: The solution to the mysterious glow near the camp
+HeaderQuest4: Intelligence

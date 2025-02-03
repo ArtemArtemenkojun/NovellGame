@@ -1,0 +1,38 @@
+@back Bg1
+@stopBGM fade:1
+@bgm Map1 volume:0.5
+@if quest=="Lost"
+	@hideUI Maps
+	@char Person.Me pose:right 
+	{PlayerName}: Hi, I'm {PlayerName}. Do you have any quests for me?
+	@getQuest name:Lost
+	@char Person.Emma pose:right 
+	Emma: Hello {PlayerName}! I have a task for you. You need to go to Sonya in Location - 2 and find out what happened with the last quest.
+	@showUI QuestView
+	@showUI SelectMap
+	@stop
+
+@elseif quest=="Dark"
+	@char Person.Me pose:right
+	{PlayerName}: What's going on here?
+	@char Person.Emma pose:right 
+	Emma: Hello, {PlayerName}. We both need that item you found.
+	@char Person.Sonya pose:right
+	Sonya: Yes, you have to decide who to give the item to, me or Emma.
+	@choice "Give the fuel to Emma" goto:NPC1Reward
+	@choice "Give the fuel to Sonya" goto:NPC2Reward
+	@choice "Keep the fuel for myself" goto:MyReward
+	@set quest="Finish"
+	@enableMap
+	@stop
+
+@elseif quest=="Finish"
+	goto:NPC1Reward
+	@char Person.Emma pose:right
+	@if reward=="NPC1"
+		Emma: Hello, I'm so glad to see you.
+	@else
+		Emma: Why did you come again, you are not welcome here, you can leave.
+	@goto Locations
+@endif
+	@goto Locations

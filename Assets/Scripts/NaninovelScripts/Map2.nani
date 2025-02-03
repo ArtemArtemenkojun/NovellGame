@@ -1,0 +1,45 @@
+@back Bg3
+@stopBGM fade:1
+@bgm Map2 volume:0.5 
+@if quest=="Lost"
+	@completeQuest
+	@showUI QuestView
+	@wait 2
+	@getQuest name:Mysterious
+	@char Person.Me pose:right 
+	{PlayerName}: Hello Sonya. I came about the quest.
+	@char Person.Sonya pose:right
+	Sonya: Hello, {PlayerName}. Before we continue, let's play a mini-game.
+	@miniGame state:true
+	@char Person.Me pose:right
+	@bgm Map2 volume:0.5 
+	{PlayerName}: I completed the mini-game. What should I do next?
+	@char Person.Sonya pose:right
+	Sonya: Everything went well! The next step is Location - 3. There you will find something that you need to use.
+	@completeQuest
+	@wait 2
+	@getQuest name:Troubled
+	@IncreaseMapLevel
+@endif
+@if quest=="Dark"
+	@DecreaseMapLevel
+	@showUI QuestView
+	@char Person.Me pose:right 
+	{PlayerName}: After I found this in Location - 3, I wondered why it was so important. Why all these quests and solving riddles?
+	{PlayerName}: It seems like everyone wants to get their hands on it.
+	{PlayerName}: Perhaps Sonya or Emma know more than they say.
+	{PlayerName}: I need to be more careful with my actions and decisions in this adventure.
+	@wait 2
+@endif
+@if quest=="Finish"
+	goto:NPC2Reward
+	@char Person.Sonya pose:right 
+	@if reward=="NPC2"
+		Sonya: Hello, glad you're back
+	@else
+		Sonya: Oh, is this what you wanted?
+		Sonya: If there’s nothing interesting then get lost
+	@goto Locations
+@endif
+@endif
+	@goto Locations

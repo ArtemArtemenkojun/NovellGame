@@ -1,0 +1,13 @@
+; English <en> to Russian <ru> localization document for `NPC1Reward` naninovel script
+
+# a70297e2
+; 	Emma: Thank you, {PlayerName}. You helped me a lot.
+    Эмма: Спасибо, {PlayerName}. Ты мне очень помог.
+
+# da7a3c8b
+; 	Sonya: How could you trust such a person... oh well, good luck.
+    Соня: Как ты мог доверять такому человеку... ну что ж, удачи.
+
+# 6adc269b
+; 	Emma: Oh, {PlayerName}, I'm terribly disappointed. You've decided to give the reward to Sonya? I'm sure she's hiding something important from us. This choice could lead to unpleasant consequences. I hope you understand your decision.
+    Эмма: О, {PlayerName}, я ужасно разочарована. Ты решил отдать награду Соне? Я уверена, что она скрывает от нас что-то важное. Этот выбор может привести к неприятным последствиям. Надеюсь, ты понимаешь свое решение.

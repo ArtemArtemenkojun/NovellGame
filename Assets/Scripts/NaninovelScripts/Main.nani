@@ -1,0 +1,11 @@
+@back Location
+@stopBGM fade:1
+@bgm Menu
+@char Person.Main pos:80
+@showUI VariableInputUI
+@input PlayerName summary:"Enter your name."
+@set quest="Lost";
+@stop
+@set PlayerName="{PlayerName}"
+@char Person.Main visible:false
+@goto Map1

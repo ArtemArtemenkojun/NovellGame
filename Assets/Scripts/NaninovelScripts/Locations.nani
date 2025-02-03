@@ -1,0 +1,9 @@
+@hideChars
+@hidePrinter
+@hideUI QuestView
+@hideUI SelectMap
+@back Bg2
+@stopBGM fade:1
+@bgm Locations volume:0.05 
+@showUI Maps
+@stop

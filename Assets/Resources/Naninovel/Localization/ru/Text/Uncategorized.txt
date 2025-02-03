@@ -1,0 +1,16 @@
+; English <en> to Russian <ru> localization document for `Uncategorized` managed text document
+
+Location: Локации
+Map: Карта
+Map1: Чернобыль
+Map2: Припять
+Map3: Припятский лес
+NewGameLabel: НОВАЯ ИГРА
+Placeholder: Введите текст...
+SummaryText: Введите ваше имя
+TitleMenu.CGGallery: Картинки
+TitleMenu.Continue: ПРОДОЛЖИТЬ
+TitleMenu.Exit: ВЫХОД
+TitleMenu.ExternalScripts: ВНЕШНИЕ СКРИПТЫ
+TitleMenu.Settings: НАСТРОЙКИ
+TitleMenu.Tips: СОВЕТЫ

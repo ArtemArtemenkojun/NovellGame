@@ -1,0 +1,5 @@
+; English <en> to Russian <ru> localization document for `CharacterNames` managed text document
+
+Person: Person
+Reward: Reward
+Sonya: Sonya

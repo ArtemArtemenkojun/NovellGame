@@ -1,0 +1,13 @@
+@set reward="NPC2"
+@char Person.Emma visible:false
+@if reward=="NPC2"
+	@showUI QuestView
+	@completeQuest
+	@wait 2
+	@char Person.Sonya pose:right
+	Sonya: Oh, thank you, {PlayerName}! You've entrusted me with this reward. I promise to use it wisely. It will come in very handy.
+@else
+	@char Person.Sonya pose:right
+	Sonya: What nonsense! I don't have my award? Are you kidding me?
+@endif
+	@goto Locations

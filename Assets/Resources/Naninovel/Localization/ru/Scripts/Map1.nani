@@ -1,0 +1,41 @@
+; English <en> to Russian <ru> localization document for `Map1` naninovel script
+
+# f073258
+; 	{PlayerName}: Hi, I'm {PlayerName}. Do you have any quests for me?
+	{PlayerName}: Привет, я {PlayerName}. У тебя есть какие-нибудь квесты для меня?
+
+# bf28a58f
+; 	Emma: Hello {PlayerName}! I have a task for you. You need to go to Sonya in Location - 2 and find out what happened with the last quest.
+    Эмма: Привет {PlayerName}! У меня есть для тебя задание. Тебе нужно пойти к Соне в Локацию - 2 и узнать, что случилось с последним квестом.
+
+# 47102e3c
+; 	{PlayerName}: What's going on here?
+	{PlayerName}: Что здесь происходит?
+
+# f3d0827a
+; 	Emma: Hello, {PlayerName}. We both need that item you found.
+    Эмма: Привет, {PlayerName}. Нам обоим нужен тот предмет, который ты нашел.
+
+# 7a4a8206
+; 	Sonya: Yes, you have to decide who to give the item to, me or Emma.
+    Соня: Да, ты должен решить, кому отдать предмет, мне или Элизе.
+
+# dc44f478
+; 	@choice "Give the fuel to Emma" goto:NPC1Reward
+    @choice "Отдайте топливо Эмме" goto:NPC1Reward
+
+# 7715d91f
+; 	@choice "Give the fuel to Sonya" goto:NPC2Reward
+    @choice "Отдать топливо Соне" goto:NPC2Reward
+
+# 4a00a29e
+; 	@choice "Keep the fuel for myself" goto:MyReward
+    @choice "Оставь топливо себе" goto:MyReward
+
+# 4d0c602a
+; 		Emma: Hello, I'm so glad to see you.
+        Эмма: Здравствуйте, я так рада вас видеть.
+
+# 4ca4668e
+; 		Emma: Why did you come again, you are not welcome here, you can leave.
+        Эмма: Зачем ты снова пришел, тебе здесь не рады, можешь уйти.
