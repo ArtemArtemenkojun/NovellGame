@@ -1,0 +1,1148 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16200 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\frondEndDevelopers\UnityEditor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Tests/novell/Новая папка/MyNovell_2.0
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50277
+Successfully changed project path to: D:/Tests/novell/Новая папка/MyNovell_2.0
+D:/Tests/novell/Новая папка/MyNovell_2.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 95.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Tests/novell/Новая папка/MyNovell_2.0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003383 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 103.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006878 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 90.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Generating Metadata
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.IOException: Sharing violation on path D:\Tests\novell\Новая папка\MyNovell_2.0\Assets\NaninovelData\Metadata.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at Naninovel.BridgingService.UpdateMetadata () [0x0000c] in D:\Tests\novell\Новая папка\MyNovell_2.0\Assets\Naninovel\Editor\Bridging\BridgingService.cs:43 
+  at Naninovel.BridgingService.GenerateMetadataOnEditorStart () [0x00019] in D:\Tests\novell\Новая папка\MyNovell_2.0\Assets\Naninovel\Editor\Bridging\BridgingService.cs:145 
+  at Naninovel.BridgingService.RestartServer () [0x00021] in D:\Tests\novell\Новая папка\MyNovell_2.0\Assets\Naninovel\Editor\Bridging\BridgingService.cs:34 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (1253ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (773ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (324ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (83.6 KB). Loaded Objects now: 5493.
+Memory consumption went from 182.2 MB to 182.1 MB.
+Total: 5.155400 ms (FindLiveObjects: 0.490700 ms CreateObjectMapping: 0.529500 ms MarkObjects: 4.017200 ms  DeleteObjects: 0.116500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3740.206630 seconds.
+  path: Assets/Prefabs/Maps.prefab
+  artifactKey: Guid(092399dce08d9564f8579fb74e1050df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Maps.prefab using Guid(092399dce08d9564f8579fb74e1050df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39cbbe97a05f12733d8e36fed97b3b5') in 0.079048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 177.696546 seconds.
+  path: Assets/Prefabs/EnterName.prefab
+  artifactKey: Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnterName.prefab using Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66f63292f84e023f7e72c0e5009a871') in 0.016979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.651761 seconds.
+  path: Assets/Prefabs/EnterName.prefab
+  artifactKey: Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnterName.prefab using Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef9a4742b41961fd73f6ec906407925') in 0.006749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.999099 seconds.
+  path: Assets/Prefabs/EnterName.prefab
+  artifactKey: Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnterName.prefab using Guid(1a1b333348b096d448134f378d8627f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789698946e1b9f107dfda7d9d3897bf7') in 0.006498 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005770 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.700 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1700ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1465ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (930ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (620ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (26.2 KB). Loaded Objects now: 5501.
+Memory consumption went from 178.8 MB to 178.8 MB.
+Total: 3.838700 ms (FindLiveObjects: 0.345300 ms CreateObjectMapping: 0.316200 ms MarkObjects: 3.134100 ms  DeleteObjects: 0.042600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+03.02.2025 7:56:12|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006929 seconds.
+Begin MonoManager ReloadAssembly
+03.02.2025 7:56:14|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+03.02.2025 7:56:14|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|Thread was being aborted.
+03.02.2025 7:56:14|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1737ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (1409ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (939ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (635ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (25.7 KB). Loaded Objects now: 5508.
+Memory consumption went from 178.8 MB to 178.8 MB.
+Total: 4.594000 ms (FindLiveObjects: 0.317600 ms CreateObjectMapping: 0.253700 ms MarkObjects: 3.973700 ms  DeleteObjects: 0.048600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1644ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1433ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (926ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (619ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (24.7 KB). Loaded Objects now: 5515.
+Memory consumption went from 178.8 MB to 178.8 MB.
+Total: 3.367500 ms (FindLiveObjects: 0.360200 ms CreateObjectMapping: 0.289400 ms MarkObjects: 2.692900 ms  DeleteObjects: 0.024200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+03.02.2025 7:59:39|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+03.02.2025 7:59:40|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+03.02.2025 8:02:13|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006478 seconds.
+Begin MonoManager ReloadAssembly
+03.02.2025 8:02:15|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1735ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1443ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (936ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (629ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (24.6 KB). Loaded Objects now: 5522.
+Memory consumption went from 178.9 MB to 178.8 MB.
+Total: 3.551600 ms (FindLiveObjects: 0.357200 ms CreateObjectMapping: 0.383600 ms MarkObjects: 2.769900 ms  DeleteObjects: 0.040200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+03.02.2025 8:03:47|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+03.02.2025 8:03:48|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+03.02.2025 8:04:29|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006455 seconds.
+Begin MonoManager ReloadAssembly
+03.02.2025 8:04:31|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1761ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1533ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (939ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (622ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (24.6 KB). Loaded Objects now: 5529.
+Memory consumption went from 178.7 MB to 178.6 MB.
+Total: 3.175000 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.321700 ms MarkObjects: 2.449500 ms  DeleteObjects: 0.038500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+03.02.2025 8:06:03|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+03.02.2025 8:06:03|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 709.734230 seconds.
+  path: Assets/Prefabs/MapItemView.prefab
+  artifactKey: Guid(5dde172099559ab439682e8e501661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MapItemView.prefab using Guid(5dde172099559ab439682e8e501661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93680172dbd71348dcf785ddb35e3f7b') in 0.043276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.604773 seconds.
+  path: Assets/Prefabs/MapItemView.prefab
+  artifactKey: Guid(5dde172099559ab439682e8e501661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MapItemView.prefab using Guid(5dde172099559ab439682e8e501661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62689d9214ff78831b6fbbd96aa5761d') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.007215 seconds.
+  path: Assets/Prefabs/MapItemView.prefab
+  artifactKey: Guid(5dde172099559ab439682e8e501661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MapItemView.prefab using Guid(5dde172099559ab439682e8e501661d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aef313f6cfa7a949703f2d4f7b06443') in 0.008058 seconds 
+03.02.2025 8:24:58|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005549 seconds.
+Begin MonoManager ReloadAssembly
+03.02.2025 8:25:00|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.666 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1667ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1445ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (936ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (635ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (24.6 KB). Loaded Objects now: 5536.
+Memory consumption went from 178.9 MB to 178.9 MB.
+Total: 3.591800 ms (FindLiveObjects: 0.335200 ms CreateObjectMapping: 0.360800 ms MarkObjects: 2.859100 ms  DeleteObjects: 0.036100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The underlying listener has failed to start. ---> System.Net.Sockets.SocketException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1735ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1496ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (970ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (630ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (25.7 KB). Loaded Objects now: 5543.
+Memory consumption went from 178.9 MB to 178.9 MB.
+Total: 4.333300 ms (FindLiveObjects: 0.351900 ms CreateObjectMapping: 0.316100 ms MarkObjects: 3.590000 ms  DeleteObjects: 0.074600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2263.107087 seconds.
+  path: Packages/com.unity.2d.path/Editor/Handles/TangentBroken.png
+  artifactKey: Guid(b370d25fdf6f8914287e27c0c3dede6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/Editor/Handles/TangentBroken.png using Guid(b370d25fdf6f8914287e27c0c3dede6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e09dfab53f634bbcac372d69890b46') in 0.539539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1114.904366 seconds.
+  path: Assets/Naninovel/Prefabs/ChoiceHandlers/ChoiceHandlerButton.prefab
+  artifactKey: Guid(42edc7aecc2c80841908c954370cb307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Prefabs/ChoiceHandlers/ChoiceHandlerButton.prefab using Guid(42edc7aecc2c80841908c954370cb307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebad9424c2b9cb3501466895c20d7b2') in 0.316763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.012427 seconds.
+  path: Assets/Naninovel/Runtime/Actor/ChoiceHandler
+  artifactKey: Guid(f4bb3a2ba2d4eb349b704d7e995a3f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Runtime/Actor/ChoiceHandler using Guid(f4bb3a2ba2d4eb349b704d7e995a3f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759edd303e7009933ee48f03257fbfbd') in 0.025389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.038591 seconds.
+  path: Assets/Naninovel/Prefabs/ChoiceHandlers
+  artifactKey: Guid(312a8d694b171804d91b2dfdef96562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Prefabs/ChoiceHandlers using Guid(312a8d694b171804d91b2dfdef96562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843a272c7f788b488ecc47cea3599f7d') in 0.008054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036050 seconds.
+  path: Assets/Naninovel/Prefabs/ChoiceHandlers/ButtonList.prefab
+  artifactKey: Guid(1f6aa29000e839c409e6a9c0704adc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Prefabs/ChoiceHandlers/ButtonList.prefab using Guid(1f6aa29000e839c409e6a9c0704adc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17c985107d421b03dcde7b488d23aff') in 0.013842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Naninovel/Prefabs/ChoiceHandlers/ChatReply.prefab
+  artifactKey: Guid(0e61df696cabbea448510879ee732b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Prefabs/ChoiceHandlers/ChatReply.prefab using Guid(0e61df696cabbea448510879ee732b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b982432f21ddc1c6565461aac5a83ed') in 0.012320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.401190 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone.png
+  artifactKey: Guid(62ce01ddca719d34ea9648c586a7cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone.png using Guid(62ce01ddca719d34ea9648c586a7cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af5ac1d1ebab1e6ffc22cd50560713a') in 0.269108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png
+  artifactKey: Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@2x.png using Guid(7395bf0bc3cc40e4ab2dda5ec6832261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665f7c407bb67f44cd34bc20f30052af') in 0.417318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png
+  artifactKey: Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence@2x.png using Guid(0779ad3feec52124e97114bcbb12ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba243d87d49cfad601389536df5afea0') in 0.252600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence.png
+  artifactKey: Guid(e92fc44f12c21dd44a49e390f39f7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence.png using Guid(e92fc44f12c21dd44a49e390f39f7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768da71738a4d73511e404fedcf8ce7c') in 0.172920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.719666 seconds.
+  path: Assets/Naninovel/Prefabs/ChoiceHandlers/ChoiceHandlerButton.prefab
+  artifactKey: Guid(42edc7aecc2c80841908c954370cb307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Prefabs/ChoiceHandlers/ChoiceHandlerButton.prefab using Guid(42edc7aecc2c80841908c954370cb307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3645e4d7505b3526473f6270f0f962') in 0.006233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.485916 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@3x.png
+  artifactKey: Guid(cee9dbe90b270c944ae1dabf41c93b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@3x.png using Guid(cee9dbe90b270c944ae1dabf41c93b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205798c120b8de8ffb7ffa44c93f840e') in 0.113284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Green_n.png
+  artifactKey: Guid(8efe25a9e1a99514ab47a76d999ae807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Green_n.png using Guid(8efe25a9e1a99514ab47a76d999ae807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ab9d58ef882c2959e0cd6d842e208f') in 0.132642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Blue_n.png
+  artifactKey: Guid(fc9a2896f05508d4dbaf826ae8871dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Blue_n.png using Guid(fc9a2896f05508d4dbaf826ae8871dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc38e1404fddc21d133376815198484b') in 0.164537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Gray_p.png
+  artifactKey: Guid(12ed5150b16c8f841a1baf82dabd7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Gray_p.png using Guid(12ed5150b16c8f841a1baf82dabd7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c1e17d6f1f5a638533c7552f1c3c2d') in 0.079742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.787030 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Green_p.png
+  artifactKey: Guid(5e12af1fb65c8d54889f31d380a174ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Green_p.png using Guid(5e12af1fb65c8d54889f31d380a174ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85da01fd98750f395d0b593346d76a6') in 0.096089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Red_n.png
+  artifactKey: Guid(f9e6c0a229c180245baa1c7954e81af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Red_n.png using Guid(f9e6c0a229c180245baa1c7954e81af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b18bdb3ad24b5838a3192adc1a2f77c') in 0.165042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Purple_p.png
+  artifactKey: Guid(26d9b97b58abf4d43a782461e39e1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Purple_p.png using Guid(26d9b97b58abf4d43a782461e39e1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed615f1201b87897ff9bb704b5b0c36a') in 0.187829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Red_p.png
+  artifactKey: Guid(61dda03aa535b8a4dad7929a83354a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn1_Red_p.png using Guid(61dda03aa535b8a4dad7929a83354a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e426a001b7a906c5d48718b5a9fcd8f9') in 0.099614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118476 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Blue_n.png
+  artifactKey: Guid(db2d0d5c911c3444d87e3a2d4f1819fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Blue_n.png using Guid(db2d0d5c911c3444d87e3a2d4f1819fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3646746eff9a32c1faed16f083825a8a') in 0.170522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Green_n.png
+  artifactKey: Guid(768c88e3388868c43877f8c12571227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Green_n.png using Guid(768c88e3388868c43877f8c12571227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d62b9454d5e3ddafaed176cd44df4d') in 0.168456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Purple_n.png
+  artifactKey: Guid(755866bb3070e1a409c245c1b8b05760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Purple_n.png using Guid(755866bb3070e1a409c245c1b8b05760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3e1db2cf9114cefdb9bda8258aa1cd') in 0.091994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Gray_n.png
+  artifactKey: Guid(af4fb2f75b1ba7342bae0a49928a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Gray_n.png using Guid(af4fb2f75b1ba7342bae0a49928a6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0903dda9f8989d120d0661ee11cca361') in 0.114740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Purple_p.png
+  artifactKey: Guid(0d5725bb10db1b54e9e776a60b77a721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Purple_p.png using Guid(0d5725bb10db1b54e9e776a60b77a721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee8b636461878d95b9652187efd1c47') in 0.118784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.814232 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Red_p.png
+  artifactKey: Guid(2b1cd56b3536680419b3cd7d298507f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Red_p.png using Guid(2b1cd56b3536680419b3cd7d298507f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e02916318468d1880ce33b816a3276') in 0.384285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Yellow_n.png
+  artifactKey: Guid(4749eeb1618a68d4180787587a3b3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Yellow_n.png using Guid(4749eeb1618a68d4180787587a3b3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f16d29c82a475c547eb0c9cd7b93319') in 0.109638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Add1_p.png
+  artifactKey: Guid(1443aa177dc8b0d4f86b61fd5fa321eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Add1_p.png using Guid(1443aa177dc8b0d4f86b61fd5fa321eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718517755a70da64252f56b4772ddfe2') in 0.167190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Turquoise_p.png
+  artifactKey: Guid(cbadd52466c43364d8c5bfee9232c5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components1/Btn2_Turquoise_p.png using Guid(cbadd52466c43364d8c5bfee9232c5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6752b1bcc7dcf10c2cc869ce626a48af') in 0.178338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.655051 seconds.
+  path: Assets/Naninovel/Prefabs/ChoiceHandlers/ChoiceHandlerButton.prefab
+  artifactKey: Guid(42edc7aecc2c80841908c954370cb307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Prefabs/ChoiceHandlers/ChoiceHandlerButton.prefab using Guid(42edc7aecc2c80841908c954370cb307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870b8f9f3b2e13665d4467dd6b55d50e') in 0.882363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.012767 seconds.
+  path: Assets/Naninovel/Prefabs/ChoiceHandlers/ChoiceHandlerButton.prefab
+  artifactKey: Guid(42edc7aecc2c80841908c954370cb307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Prefabs/ChoiceHandlers/ChoiceHandlerButton.prefab using Guid(42edc7aecc2c80841908c954370cb307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259f86077e55875f41285445f3f16c65') in 0.005363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.886328 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/5Scene2/Btn_Attack_n.png
+  artifactKey: Guid(4c465fec08ca89a4a849bd7863fc43b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/5Scene2/Btn_Attack_n.png using Guid(4c465fec08ca89a4a849bd7863fc43b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c160af18ce2d3925e231277df4ef500e') in 0.793413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/9Shop/Btn_Buy2_n.png
+  artifactKey: Guid(134c4261dc54680429361cf57ef494d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/9Shop/Btn_Buy2_n.png using Guid(134c4261dc54680429361cf57ef494d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60838981cca9a23589d5bda835e701db') in 0.235582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/9Shop/Btn_Buy1_p.png
+  artifactKey: Guid(c010a0311655ed443833c6543463a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/9Shop/Btn_Buy1_p.png using Guid(c010a0311655ed443833c6543463a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1922e1cd6aafa768ad97034fa86edc') in 0.115107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/9Shop/Btn_Buy1_n.png
+  artifactKey: Guid(fc2058d62a14ea84784ba45801baf0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/9Shop/Btn_Buy1_n.png using Guid(fc2058d62a14ea84784ba45801baf0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837dfb6b71878dc8e724e2048657add8') in 0.249879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Back_p.png
+  artifactKey: Guid(53a9fb2032263b7428b6b4955b4b55ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Back_p.png using Guid(53a9fb2032263b7428b6b4955b4b55ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0b7d546edf46896362cf5665b6a1d5') in 0.214050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.661759 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Btn_CircleMenu_p.png
+  artifactKey: Guid(2cc3be3de5b0592429e54065e066a68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Btn_CircleMenu_p.png using Guid(2cc3be3de5b0592429e54065e066a68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e302d9de878981a01a815ca01d233a4d') in 0.180016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/10Character/Btn_LeftMenu2_s.png
+  artifactKey: Guid(2e30d71671a1b624fa2d2d54446020bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/10Character/Btn_LeftMenu2_s.png using Guid(2e30d71671a1b624fa2d2d54446020bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc391e07d1afe6afeedd3801f2c6c4f') in 0.168818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Btn_Left_p.png
+  artifactKey: Guid(291f3efe21571524caa65a43f69e8192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Btn_Left_p.png using Guid(291f3efe21571524caa65a43f69e8192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a58bd521fdc6e10a4645fedd50eac9') in 0.145875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/8Missions/Btn_DailyTask_n.png
+  artifactKey: Guid(8672f70f9c90f93488985128712e1a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/8Missions/Btn_DailyTask_n.png using Guid(8672f70f9c90f93488985128712e1a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68566ac95c6c7eb69539b4c8da557ebe') in 0.238287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Diamond_p.png
+  artifactKey: Guid(84419318e4de7944db7dac64943f3f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Diamond_p.png using Guid(84419318e4de7944db7dac64943f3f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234539591de36911abb0ba490e16e539') in 0.353854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Btn_Left_n.png
+  artifactKey: Guid(fbda65f6e9900834c8550f7d816b98a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Btn_Left_n.png using Guid(fbda65f6e9900834c8550f7d816b98a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd331b9b640c3db2d7055744714676106') in 0.177633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/9Shop/Btn_LeftMenu1_s.png
+  artifactKey: Guid(f673e2c1f24727e469881a726d06a56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/9Shop/Btn_LeftMenu1_s.png using Guid(f673e2c1f24727e469881a726d06a56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2edd986cba5b5c25407eaab272ee355') in 0.178225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091039 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/7Options/Btn_ClosePopup_p.png
+  artifactKey: Guid(f6b33a31c32bb37478a6c66da02806aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/7Options/Btn_ClosePopup_p.png using Guid(f6b33a31c32bb37478a6c66da02806aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c098d2c347a24ac1957f60cd97fe4c4f') in 0.259355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.741644 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/2MainMenu/Btn_MainMenu2_p.png
+  artifactKey: Guid(236e83c63035c274cae5675e9e116130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/2MainMenu/Btn_MainMenu2_p.png using Guid(236e83c63035c274cae5675e9e116130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b1a3a2d98b625a26862e2a215ca8eb') in 0.167724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Next1_p.png
+  artifactKey: Guid(8ef0c538af400354a81400227b5d871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Next1_p.png using Guid(8ef0c538af400354a81400227b5d871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca78491d3d6bef80f29e42ff9220004') in 0.282153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Next2_n.png
+  artifactKey: Guid(bd251660d5ed2784c9af8003f667808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Next2_n.png using Guid(bd251660d5ed2784c9af8003f667808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004e8bdb087be7a33fb6bf99dd6dfaf0') in 0.802839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Next2_Gray.png
+  artifactKey: Guid(6f5eaf272e6d012459f3b4bcd0048635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Next2_Gray.png using Guid(6f5eaf272e6d012459f3b4bcd0048635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030d215fd4ebb6ccefbe16075be1849c') in 0.018639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Map_s.png
+  artifactKey: Guid(519a1ad1e3f6852429796bb8bd4e3c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Map_s.png using Guid(519a1ad1e3f6852429796bb8bd4e3c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a161af7251082e6b580d25ef715bbedc') in 0.177658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.128012 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/5Scene2/Btn_Pause.png
+  artifactKey: Guid(a63ee0d34ea482a4badc79e9ce3507ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/5Scene2/Btn_Pause.png using Guid(a63ee0d34ea482a4badc79e9ce3507ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b4a48889c4c0924f3b9f2e2f3eb01a') in 0.177555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Previous1_Gray.png
+  artifactKey: Guid(9b93c281bcb423245bc9052d602a4f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Btn_Previous1_Gray.png using Guid(9b93c281bcb423245bc9052d602a4f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b0ed4c6be8c00889a6b884ad077cf4') in 0.132879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Pause1_p.png
+  artifactKey: Guid(22b44560b3fb81145a03e6c8c0dc293e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Pause1_p.png using Guid(22b44560b3fb81145a03e6c8c0dc293e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8a876d424803e49019533672520e3e') in 0.547815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/6Pause/Btn_PauseMenu1_n.png
+  artifactKey: Guid(e54ae73b2c8ef4a48b3d8b596dc5deee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/6Pause/Btn_PauseMenu1_n.png using Guid(e54ae73b2c8ef4a48b3d8b596dc5deee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a534d2b4ccc4f77daee00cac16aba8e') in 0.255556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081263 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/6Pause/Btn_PauseMenu2_p.png
+  artifactKey: Guid(75b45f2ed69eb5b469622672cdeff2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/6Pause/Btn_PauseMenu2_p.png using Guid(75b45f2ed69eb5b469622672cdeff2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b02f3c69a7ea2a8b542458fbb27ccb') in 0.490668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.425343 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/2MainMenu/Btn_Shop_n.png
+  artifactKey: Guid(f2d9caa82f99f8f49a5dcfb952583221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/2MainMenu/Btn_Shop_n.png using Guid(f2d9caa82f99f8f49a5dcfb952583221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf38170c77113a90f9c78bfab1feb1a') in 0.138775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.537094 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Dialog.png
+  artifactKey: Guid(f634bc2e7243c6543b465094b356a913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Dialog.png using Guid(f634bc2e7243c6543b465094b356a913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039536bf74765ee9e59a80fca7bf7ec2') in 0.191395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.333847 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/FloatingDialogue.uss
+  artifactKey: Guid(b6078429dfca1ea4ea1b81a864670a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/FloatingDialogue.uss using Guid(b6078429dfca1ea4ea1b81a864670a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3131b49e48846c9471d1c89937babc') in 1.045149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/ProgressControlsForDialogs.uss
+  artifactKey: Guid(e05b9be8556f5ae41aa78140b83146d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/ProgressControlsForDialogs.uss using Guid(e05b9be8556f5ae41aa78140b83146d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaff359719a32bdef6c0a0ff97fa6f1') in 0.079859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.111372 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/Aldrich-Regular.ttf
+  artifactKey: Guid(db1c041975bd160499e0b233c7b95e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/Aldrich-Regular.ttf using Guid(db1c041975bd160499e0b233c7b95e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d18fd1e23a4fefb2c4d77827d55a05') in 0.294019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-BoldItalic.ttf
+  artifactKey: Guid(f5dccc4de93a59244bcfb6d5f2a0f623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-BoldItalic.ttf using Guid(f5dccc4de93a59244bcfb6d5f2a0f623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d39e419928dd5c4e9a1bd9c90a80f37') in 0.673971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-ExtraBold.ttf
+  artifactKey: Guid(a54b96bafce245a4e914b67392a12a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-ExtraBold.ttf using Guid(a54b96bafce245a4e914b67392a12a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c599d1184d78d1b41e6b98307b85779b') in 0.116823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Regular.ttf
+  artifactKey: Guid(d9d6a5440b01e9a41828df890ef54a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Regular.ttf using Guid(d9d6a5440b01e9a41828df890ef54a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c6964292f1e329ef2e17177a1f2dd1') in 0.151724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Medium.ttf
+  artifactKey: Guid(dc269d385a88a8d4595a11062cfce47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Medium.ttf using Guid(dc269d385a88a8d4595a11062cfce47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe3b28e65acb377646a844efd37f412') in 0.117036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/LaborUnion-Regular.otf
+  artifactKey: Guid(00dfe23bef44aac43a19a11cd7f6a743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/LaborUnion-Regular.otf using Guid(00dfe23bef44aac43a19a11cd7f6a743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355a1ac69d7677cb7c2aa663ac4bc7ae') in 0.103602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-Italic.ttf
+  artifactKey: Guid(f0f8f8f3635eaa14ead22a66cc4a1a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-Italic.ttf using Guid(f0f8f8f3635eaa14ead22a66cc4a1a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9451a8c15d8ab689567da223f4450ef') in 0.094143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-SemiBold.ttf
+  artifactKey: Guid(a88a87032638769478f1251b7ebbc1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-SemiBold.ttf using Guid(a88a87032638769478f1251b7ebbc1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d81179788f072e71e7b3554d27342a') in 0.066618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf
+  artifactKey: Guid(3d962a23742058e4a9a71c7ec4f98fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf using Guid(3d962a23742058e4a9a71c7ec4f98fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f5196bb7c6fbc83d7821012c7b1ea5') in 0.091287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf
+  artifactKey: Guid(e7e34955091bd2c40b2630ff3a9200f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf using Guid(e7e34955091bd2c40b2630ff3a9200f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e85618712027442edaa02148a8d7237') in 0.124935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-BoldItalic.ttf
+  artifactKey: Guid(269df42cdbaa1844e8e54811d376931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-BoldItalic.ttf using Guid(269df42cdbaa1844e8e54811d376931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18959c68f42a81bf1fc7c312c2b2342') in 0.099126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/VioletSans-Regular.ttf
+  artifactKey: Guid(aea742108737d4146a82ab2580f64dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Fonts/VioletSans-Regular.ttf using Guid(aea742108737d4146a82ab2580f64dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d0a893a4d415e2b42b7a6423cb7fe2') in 0.045882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-ExtraBoldItalic.ttf
+  artifactKey: Guid(1f939fa5e12376c4786e50fb210d7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-ExtraBoldItalic.ttf using Guid(1f939fa5e12376c4786e50fb210d7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ee9dd882bf19ae0303a1d7fd657c6d') in 0.052935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Thin.ttf
+  artifactKey: Guid(0980d37ff44304d4aaaf275bf19d4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Thin.ttf using Guid(0980d37ff44304d4aaaf275bf19d4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c2669d00402605ed2cb1c944dfef70') in 0.204115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-ExtraLight.ttf
+  artifactKey: Guid(6cbec4e96b6d1cb43b88381861d2741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-ExtraLight.ttf using Guid(6cbec4e96b6d1cb43b88381861d2741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec23e34341f743cc66b864f24608897e') in 0.042920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-SemiBoldItalic.ttf
+  artifactKey: Guid(85a81952531582a4e86872aca698f04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-SemiBoldItalic.ttf using Guid(85a81952531582a4e86872aca698f04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b796bbb4e618bc6c34e1b99150cd2e86') in 0.093298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-MediumItalic.ttf
+  artifactKey: Guid(f76c5850d1f886949a64f1edaf024750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-MediumItalic.ttf using Guid(f76c5850d1f886949a64f1edaf024750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e3c009afb219e478ce85efc8696479') in 0.117114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Bold.ttf
+  artifactKey: Guid(282840c0fbf460b4a8c333958a069c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Bold.ttf using Guid(282840c0fbf460b4a8c333958a069c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c282ec309199e9554e06cae264fa86') in 0.109187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037165 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Black.ttf
+  artifactKey: Guid(f9fd6433e6880d64cae0aeefcfbadfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-Black.ttf using Guid(f9fd6433e6880d64cae0aeefcfbadfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0c93108d23b45eb32e622dd9f3d51e') in 0.100389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-ExtraBold.ttf
+  artifactKey: Guid(a5ae1b4d46e6ef943ac83463d4e9dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Montserrat/Montserrat-ExtraBold.ttf using Guid(a5ae1b4d46e6ef943ac83463d4e9dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991051f6956d7ffcd4a49de874167b8d') in 0.052565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-VariableFont_wdth,wght.ttf
+  artifactKey: Guid(2aa04aa842084d0448701f5808e6381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Publishing Tools/Editor/Fonts/Open Sans/OpenSans-VariableFont_wdth,wght.ttf using Guid(2aa04aa842084d0448701f5808e6381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e90ecc470bea9eecf827cb4c00a266') in 0.074996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.394621 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Previous2_Gray.png
+  artifactKey: Guid(5272d24731999ca44b855ce9b626d98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Previous2_Gray.png using Guid(5272d24731999ca44b855ce9b626d98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f22a9f25640112b9fb34854f5a3c804') in 0.883182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Icon_PointWhite.png
+  artifactKey: Guid(6f89439effbbfd140a528047d2319bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Icon_PointWhite.png using Guid(6f89439effbbfd140a528047d2319bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892cfe5f7bda0b7ff25740a30cf29a4d') in 0.158204 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

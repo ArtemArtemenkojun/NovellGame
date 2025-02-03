@@ -1,0 +1,692 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16200 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\frondEndDevelopers\UnityEditor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+D:/Tests/novell/Новая папка/MyNovell_2.0
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+50277
+Successfully changed project path to: D:/Tests/novell/Новая папка/MyNovell_2.0
+D:/Tests/novell/Новая папка/MyNovell_2.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 103.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Tests/novell/Новая папка/MyNovell_2.0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/frondEndDevelopers/UnityEditor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002579 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 94.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006118 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 99.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Generating Metadata
+Mono: successfully reloaded assembly
+- Completed reload, in  2.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2134ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (1818ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (839ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (83.6 KB). Loaded Objects now: 5493.
+Memory consumption went from 182.0 MB to 182.0 MB.
+Total: 6.339700 ms (FindLiveObjects: 0.503700 ms CreateObjectMapping: 0.533000 ms MarkObjects: 5.177300 ms  DeleteObjects: 0.124600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8614.402962 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Previous2_p.png
+  artifactKey: Guid(39a3c3c92332423488036910d1eb7376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Btn_Previous2_p.png using Guid(39a3c3c92332423488036910d1eb7376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc158881d0daaee308a1f9c3d980de90') in 0.815521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Icon_Target.png
+  artifactKey: Guid(7438d845f5819d847ab9679c136e107d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Icon_Target.png using Guid(7438d845f5819d847ab9679c136e107d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e6cdec8ee36c8ed9ceeff863a24ba0') in 0.214704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Icon_pause0.png
+  artifactKey: Guid(106798640353b9d4eb0514cee51d8afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/4Scene1/Icon_pause0.png using Guid(106798640353b9d4eb0514cee51d8afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5a03e4ecc8f557c4a3aeedae54e872') in 0.143369 seconds 
+03.02.2025 9:10:14|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+03.02.2025 9:12:56|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005861 seconds.
+Begin MonoManager ReloadAssembly
+03.02.2025 9:12:58|Fatal|WebSocketServer.receiveRequest|Thread was being aborted.
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Tests\novell\Новая папка\MyNovell_2.0\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.623 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1623ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1415ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (954ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (615ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (24.7 KB). Loaded Objects now: 5511.
+Memory consumption went from 182.5 MB to 182.5 MB.
+Total: 5.201500 ms (FindLiveObjects: 0.396300 ms CreateObjectMapping: 0.324100 ms MarkObjects: 4.430800 ms  DeleteObjects: 0.047700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+03.02.2025 9:14:30|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+03.02.2025 9:14:30|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|A timeout has occurred while reading an HTTP request/response.
+========================================================================
+Received Import Request.
+  Time since last request: 395.497354 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 3.png
+  artifactKey: Guid(1e46152f02883d04da75c2df06e19a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 3.png using Guid(1e46152f02883d04da75c2df06e19a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7017fc4ed959687a6c5f21d11c851914') in 0.263220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@4x.png
+  artifactKey: Guid(0ccc508108fa6ed4fa11b4a467d7f609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@4x.png using Guid(0ccc508108fa6ed4fa11b4a467d7f609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6f9587da2c0282e8d0edde51e60e9c') in 0.047283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 10.png
+  artifactKey: Guid(10a6b1b7f9207d04d89fd3b7385aa9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 10.png using Guid(10a6b1b7f9207d04d89fd3b7385aa9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380fadb728f981953e5b1ba81c008758') in 0.055401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy.png
+  artifactKey: Guid(678095381d851334fb550c5032ba1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy.png using Guid(678095381d851334fb550c5032ba1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369136fcc3bb4aa6b3b4cc75bfb775b6') in 0.061031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 14.png
+  artifactKey: Guid(ca48a748357a3164b872a737f8cac3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 14.png using Guid(ca48a748357a3164b872a737f8cac3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a52447bf5019aee37a2f7c41a2c855') in 0.064699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DTT/Minigame Base/Assets/Sprites/Circle Sprite Mesh.png
+  artifactKey: Guid(71176bc67385d6f4ab1e7d7869f1d404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame Base/Assets/Sprites/Circle Sprite Mesh.png using Guid(71176bc67385d6f4ab1e7d7869f1d404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7432e301b9f2397eae031a16457f30d') in 0.042520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/CircleMap.png
+  artifactKey: Guid(d4ecb17710c9bf0428353122fc44bca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/CircleMap.png using Guid(d4ecb17710c9bf0428353122fc44bca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65195d58bfd190d43de871b82b72d45') in 0.140846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/Circle Outline.png
+  artifactKey: Guid(c822ace3443a0a74788a044322938ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/Circle Outline.png using Guid(c822ace3443a0a74788a044322938ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67702b341e49c4cffc19dd8ed4870414') in 0.081234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Naninovel/Textures/UI/CGSlotLoading.png
+  artifactKey: Guid(d251af99d172b594aa77d4d1551a3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naninovel/Textures/UI/CGSlotLoading.png using Guid(d251af99d172b594aa77d4d1551a3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c468d67d429391e8cc7ab2302083d8') in 0.092387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png
+  artifactKey: Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png using Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257015ec9675053b870a0829b71ecbe0') in 0.105774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 13.png
+  artifactKey: Guid(52c54bd0197eb78469810f98dccc0a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 13.png using Guid(52c54bd0197eb78469810f98dccc0a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc73a36d956d0f70fb3b760a93e184dc') in 0.052532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@4x.png
+  artifactKey: Guid(b6a96c7c65795c94abf54a62adbf5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@4x.png using Guid(b6a96c7c65795c94abf54a62adbf5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb6d65bbff26252d9f7464c6241be6') in 0.051929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 15.png
+  artifactKey: Guid(c7600dc57a4c1bb49b1f5e6e625abf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 15.png using Guid(c7600dc57a4c1bb49b1f5e6e625abf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36ad0889c6a7ebeddeaf590c0047940') in 0.070672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 5.png
+  artifactKey: Guid(c5866f2b6ebbaa8458d87e2713323039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 5.png using Guid(c5866f2b6ebbaa8458d87e2713323039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715cff49aa01dde3987d3788449b3d0b') in 0.157920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 4.png
+  artifactKey: Guid(ff48d5f517bbca64c97e564f0dacb875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 4.png using Guid(ff48d5f517bbca64c97e564f0dacb875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53d2937fb79e535d8e09d8890caec68') in 0.053322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/CircleProgressBlue_bg.png
+  artifactKey: Guid(c78b3e138e5c4ce43ac61418060ec08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/CircleProgressBlue_bg.png using Guid(c78b3e138e5c4ce43ac61418060ec08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1103f02c205abc7f66248f3f1b12e662') in 0.079224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/Components1.png
+  artifactKey: Guid(94ca0b16f4621dc4dac5fa8effb502b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/Components1.png using Guid(94ca0b16f4621dc4dac5fa8effb502b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84cda5d5982a4fca0cb92e82e6fad5f') in 0.846478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@3x.png
+  artifactKey: Guid(bb51334c6930f864abac38001f7bdf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@3x.png using Guid(bb51334c6930f864abac38001f7bdf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240a7173ceab795068774335fa80b2b1') in 0.225080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/CircleProgressPurple.png
+  artifactKey: Guid(5e815176f58f2bf4dab6f0bd2784c4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/CircleProgressPurple.png using Guid(5e815176f58f2bf4dab6f0bd2784c4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209e9cfeb932d13190b960e9c410b699') in 0.152954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Checkbox_Off.png
+  artifactKey: Guid(ff59e4b47cdd4c14eb039e6a5630c8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Checkbox_Off.png using Guid(ff59e4b47cdd4c14eb039e6a5630c8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d935c84df6394131fcf05b4f69c932') in 0.131605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 9.png
+  artifactKey: Guid(1ed4ef5e1559fa54292e61e887a57343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 9.png using Guid(1ed4ef5e1559fa54292e61e887a57343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3f0212e5fbfe428dcc7c33c0a5105c') in 0.052522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/5Scene2/Coins_bg1.png
+  artifactKey: Guid(c22f7c3cb2ce59f468ec2a98d8b39f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/5Scene2/Coins_bg1.png using Guid(c22f7c3cb2ce59f468ec2a98d8b39f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29530b6ed4cba7cfa1358d314bfad1cd') in 0.071727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 12.png
+  artifactKey: Guid(cde5fb2f44a5011469cf3048c5f3cd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DTT/Minigame - Memory/Demo/Sprites/CardSprites/Card Unique 12.png using Guid(cde5fb2f44a5011469cf3048c5f3cd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8be0eff0fa924417300349dc0174e2d') in 0.044483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/Components2.png
+  artifactKey: Guid(2df3d3e2e591c724bbc905caf9c39b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/Previews/Components2.png using Guid(2df3d3e2e591c724bbc905caf9c39b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b837ebbc207573ed2e947d0f59aeb1') in 0.397343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@3x.png
+  artifactKey: Guid(7835bec40f86c2c4fb3f91a6eb3b7034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@3x.png using Guid(7835bec40f86c2c4fb3f91a6eb3b7034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8345d7ad71f080897300772afefcdf09') in 0.051056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones@3x.png
+  artifactKey: Guid(803b0b9bfc1fd824aae8423bfbab83b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones@3x.png using Guid(803b0b9bfc1fd824aae8423bfbab83b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35b713611faeef895cb4d38541de886') in 0.321437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@4x.png
+  artifactKey: Guid(5430b5412bcac5b4986be0a875a5e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@4x.png using Guid(5430b5412bcac5b4986be0a875a5e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25a549fca3a8461d3ca4154deb25e93') in 0.499097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge.png
+  artifactKey: Guid(1af9d2e44ecf3a2468601c9071df581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge.png using Guid(1af9d2e44ecf3a2468601c9071df581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b3ad059dd6352299cf5af40f6fd3a7') in 0.281998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@4x.png
+  artifactKey: Guid(6a7ac9e8c26b12440bf2b1da2ca97794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@4x.png using Guid(6a7ac9e8c26b12440bf2b1da2ca97794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 03.02.2025 9:15:45|Error|<>c__DisplayClass70_0.<receiveRequest>b__0|An exception has occurred while reading an HTTP request/response.
+ -> (artifact id: 'fc6e554d17363446e727d1f27b3c3f7d') in 0.635893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@3x.png
+  artifactKey: Guid(47fe565904dc6b1419e9acc62b99812e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@3x.png using Guid(47fe565904dc6b1419e9acc62b99812e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1697986739cbe45b8f32a197bc760c3') in 0.229291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge.png
+  artifactKey: Guid(ad7b296d426713b4593ee1a19fcbf9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge.png using Guid(ad7b296d426713b4593ee1a19fcbf9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbed50c24b3c2fe3be0a7e830f0d3ac') in 0.205667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@2x.png
+  artifactKey: Guid(8afb57fea8c4eea4a8085e91c810380b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex@2x.png using Guid(8afb57fea8c4eea4a8085e91c810380b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b3c07cfe08de6a9fa6262ba2b5a5d3') in 0.152017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@3x.png
+  artifactKey: Guid(374643871a39dd44880f1c0eff14f46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@3x.png using Guid(374643871a39dd44880f1c0eff14f46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cd4d12f36e5bb0a437ba4e7a6927d5') in 0.239447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@2x.png
+  artifactKey: Guid(e5da66fa63839274dbffb877e43e888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@2x.png using Guid(e5da66fa63839274dbffb877e43e888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd852fe3cf7f9f4be2d4394380b00ab1f') in 0.124249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Bone.png
+  artifactKey: Guid(fc2eaf4b0441b7645960252182c27446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Bone.png using Guid(fc2eaf4b0441b7645960252182c27446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef288a704f0813112fbdbb53a7518bd') in 0.287570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@3x.png
+  artifactKey: Guid(55ad4b6109677be42b239f450ce98c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@3x.png using Guid(55ad4b6109677be42b239f450ce98c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405aad802124dd429e226619982a1169') in 0.063699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones.png
+  artifactKey: Guid(0e5ae7fe3a07e88429a3e90897c6ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones.png using Guid(0e5ae7fe3a07e88429a3e90897c6ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e7f3f81db2a666ba1237f37b43dc2a') in 0.034596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@4x.png
+  artifactKey: Guid(748ae8b33df036b46a86e0387f1602cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@4x.png using Guid(748ae8b33df036b46a86e0387f1602cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90685416c7939761a1cdff152ca6db89') in 0.075784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@2x.png
+  artifactKey: Guid(5b7f664b515582d458717c354f6be292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@2x.png using Guid(5b7f664b515582d458717c354f6be292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62832c6e34f13893d0a47a4cf2ee801e') in 0.074434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.959956 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Btn_Right_p.png
+  artifactKey: Guid(11c0055e2d5d5b64c80665583051fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Btn_Right_p.png using Guid(11c0055e2d5d5b64c80665583051fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f27a4b08dc1b7fcbd2ac68f1841863') in 0.301537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png
+  artifactKey: Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png using Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b29622118887cc9798a9619cbacb4d') in 0.393393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png
+  artifactKey: Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png using Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4069fa2d39842d7e4d58196559b2a217') in 0.108191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar@2x.png
+  artifactKey: Guid(0ac55f9f886d827408c102bdf33c5ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar@2x.png using Guid(0ac55f9f886d827408c102bdf33c5ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6132c053267db0c4672163857056e29') in 0.091040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticview.png
+  artifactKey: Guid(519d97e745e55f041b609f3666cbc037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticview.png using Guid(519d97e745e55f041b609f3666cbc037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a59d45d69ca291b2028924f52f21ccd') in 0.062348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons0/Icon_Bomb0.png
+  artifactKey: Guid(1a93e4f4f141f474bad4ff76ac327dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons0/Icon_Bomb0.png using Guid(1a93e4f4f141f474bad4ff76ac327dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a5331734f0d113d7fedae37f42055e') in 0.168187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Icon_Back.png
+  artifactKey: Guid(d21980b8b989b0a4ab76f6e342b37f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/3MapSelect/Icon_Back.png using Guid(d21980b8b989b0a4ab76f6e342b37f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebd2efba799351255afa3ae3491cffd') in 0.150085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay@2x.png
+  artifactKey: Guid(4a231ba0e81e63849a8f985c228e8acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay@2x.png using Guid(4a231ba0e81e63849a8f985c228e8acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab01e74a38bd3f9a603a15bf7b095bdd') in 0.076573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconundo@2x.png
+  artifactKey: Guid(6d6088174bb906b49ad8428526ee337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconundo@2x.png using Guid(6d6088174bb906b49ad8428526ee337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196577138eed583bbae4cb449ddaa232') in 0.113653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton@2x.png
+  artifactKey: Guid(0525793900d728a42936791a8a6de63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton@2x.png using Guid(0525793900d728a42936791a8a6de63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7552355a1518da2703cb52fa31ef25d0') in 0.135914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png
+  artifactKey: Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png using Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408fb75d2170dca6a137c8e4bce2b775') in 0.126827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconbranch@2x.png
+  artifactKey: Guid(874d8401331ede14087e8d8d486ddda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconbranch@2x.png using Guid(874d8401331ede14087e8d8d486ddda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668dbe19e94f2789f7072943b1e409a5') in 0.064244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremote@2x.png
+  artifactKey: Guid(626b9cddb29049e4cac50cd87b419945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremote@2x.png using Guid(626b9cddb29049e4cac50cd87b419945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617e2d89fb50a24a102c2280cfaf7890') in 0.205342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay.png
+  artifactKey: Guid(dc633de6e6e7415448c7568418239a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay.png using Guid(dc633de6e6e7415448c7568418239a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24991013a68f620988ca48049581fe98') in 0.128487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png
+  artifactKey: Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png using Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58343b29568dd971ca14d9a7af77a8a8') in 0.165447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Attack256.png
+  artifactKey: Guid(283e283a0704c654fa7645e4cda12646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Attack256.png using Guid(283e283a0704c654fa7645e4cda12646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4a7c3532a3eb8824d7f68009f88e36') in 0.124038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay@2x.png
+  artifactKey: Guid(2cfbf6619eb047545a425e8a31732c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay@2x.png using Guid(2cfbf6619eb047545a425e8a31732c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4891c62021d9265f3ba15a13219f89fe') in 0.093880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png
+  artifactKey: Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png using Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8a9e9f62654afefdc4e9774b5b42d3') in 1.653985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.972436 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/10Character/Icon_Coinsbg.png
+  artifactKey: Guid(64df4006fac1f5847987f1bd81c86ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/10Character/Icon_Coinsbg.png using Guid(64df4006fac1f5847987f1bd81c86ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652995b6248f4024f44582193a45efce') in 0.151609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons0/Icon_Example.png
+  artifactKey: Guid(14723b73385254e4ab587cf4ab3cc248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons0/Icon_Example.png using Guid(14723b73385254e4ab587cf4ab3cc248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e9ec911107c9c4decedd3c0bda3fb7') in 0.253325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Fire256.png
+  artifactKey: Guid(ee6c395b8a508824392c1f1438c10643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Fire256.png using Guid(ee6c395b8a508824392c1f1438c10643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e77ff12500953f3285a49a3e86e4977') in 0.231391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Icon_ExplosiveLine.png
+  artifactKey: Guid(e5dd925b457839542aac95bd52a6dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Icon_ExplosiveLine.png using Guid(e5dd925b457839542aac95bd52a6dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458daea0b48189c95d741ac878eee298') in 0.292996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Icon_LifeGray.png
+  artifactKey: Guid(78579c9a462d9f6469f182ff04863c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Icon_LifeGray.png using Guid(78579c9a462d9f6469f182ff04863c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17268cece13d815480e76b1521454f56') in 0.275399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons0/Icon_Heart0.png
+  artifactKey: Guid(4060e19af1aa07f4188c9af70b1a734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons0/Icon_Heart0.png using Guid(4060e19af1aa07f4188c9af70b1a734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c1b70ae773f6d21b591fa5cf0e9656') in 0.104460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons0/Icon_Mission.png
+  artifactKey: Guid(c309ea1b236361942a684f9e28efaa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons0/Icon_Mission.png using Guid(c309ea1b236361942a684f9e28efaa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cab671234caee0fbc2ae92f5895ba2') in 0.506708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Icon_GrayStar01.png
+  artifactKey: Guid(fd12beed1d72cb24f987b9999c5e0653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Icon_GrayStar01.png using Guid(fd12beed1d72cb24f987b9999c5e0653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b15cea546122d63c8a698943c02444') in 0.150451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Enemy256.png
+  artifactKey: Guid(b166a168e333fad42b1a3c5fd06e5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Enemy256.png using Guid(b166a168e333fad42b1a3c5fd06e5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3523a95abdcf0bf4547f8da20bb2f111') in 0.123244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/8Missions/Icon_Mission00.png
+  artifactKey: Guid(d127da3e5ce18f846821cd996149d9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/8Missions/Icon_Mission00.png using Guid(d127da3e5ce18f846821cd996149d9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3930bcdb461490fe8c00c624185145f1') in 0.107286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Grenade256.png
+  artifactKey: Guid(2d416ae6684ac6d4cb35c3472bfcff53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Grenade256.png using Guid(2d416ae6684ac6d4cb35c3472bfcff53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31b482123a1c7c717544c931c0b7d32') in 0.155072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Pause256.png
+  artifactKey: Guid(03d64ff76028c1046a973d180049c571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Pause256.png using Guid(03d64ff76028c1046a973d180049c571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293c3398d0bb3af9ac973b6c33d44f22') in 0.104314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065990 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Play256.png
+  artifactKey: Guid(d3c5bed058c50f348ba964f7ae2629de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Play256.png using Guid(d3c5bed058c50f348ba964f7ae2629de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59d6440f76a21c4b635d036dad399c8') in 0.285826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Setting256.png
+  artifactKey: Guid(138525fc7ff26bf46a6b7136ea33093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Setting256.png using Guid(138525fc7ff26bf46a6b7136ea33093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66efb526262334a524150d530d298f0b') in 0.098171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/13Reward/Icon_Rewards.png
+  artifactKey: Guid(36146dc869514434f86af5511b2dd327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/13Reward/Icon_Rewards.png using Guid(36146dc869514434f86af5511b2dd327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824e9f95c737b6de6085376d457cdc28') in 0.183538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Icon_SelectedYellow.png
+  artifactKey: Guid(d6f951136ffa4d043b0994dfb5573d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Components2/Icon_SelectedYellow.png using Guid(d6f951136ffa4d043b0994dfb5573d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb81d2aa690df55331f79fc68c2f0f4b') in 0.075345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Right256.png
+  artifactKey: Guid(e5ce12d76ecdcaf4b807988bbf28cd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Cyberpunk UI Pack/Cyberpunk UI Resources/SlicedElements/Icons_White/Icon_Right256.png using Guid(e5ce12d76ecdcaf4b807988bbf28cd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b80079b28614dc9d74f7d96fb9d927') in 0.275104 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
